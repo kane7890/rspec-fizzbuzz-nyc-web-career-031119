@@ -8,6 +8,7 @@ def fizzbuzz(var)
   if ((var % 5) == 0)
     str2 = "Buzz"
   end
+  puts (str1+str2)
     return (str1 + str2)
 end
   
