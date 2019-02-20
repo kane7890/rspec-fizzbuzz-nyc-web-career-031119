@@ -1,7 +1,7 @@
 # Don't forget! This file needs to be 'required' in its spec file
 # See README.md for instructions on how to do this
 def fizzbuzz(var)
-  puts "WTF + #{var}""
+  puts "WTF K+ #{var}""
   if ((var % 3) == 0) 
     str1 = "Fizz"
   end
