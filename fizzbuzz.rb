@@ -3,5 +3,10 @@
 def fizzbuzz(var)
   if ((var % 3) == 0) 
     str1 = "Fizz"
+  end
   if ((var % 5) == 0)
-    
+    str2 = "Buzz"
+  end
+    return (str1 + str2)
+end
+  
