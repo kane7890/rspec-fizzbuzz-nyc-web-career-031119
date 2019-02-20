@@ -4,16 +4,11 @@ def fizzbuzz(var)
   puts "WTF  #{var}"
   if ((var % 15) == 0)
     return ("FizzBuzz")
-  end
   elsif ((var % 3) == 0) 
     return ("Fizz")
   elsif ((var % 5) == 0)
-    return ("Buzz)
-  end
- if (str1+str2 == "")
-   return(NIL)
- else
-    return (str1 + str2)
+    return ("Buzz")
+  else
+    return(NIL)
   end
 end
-  
