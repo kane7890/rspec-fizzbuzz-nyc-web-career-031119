@@ -2,7 +2,10 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(var)
   puts "WTF  #{var}"
-  if ((var % 3) == 0) 
+  if ((var % 15) == 0)
+    return ("FizzBuzz")
+  end
+  elseif ((var % 3) == 0) 
     str1 = "Fizz"
   end
   if ((var % 5) == 0)
