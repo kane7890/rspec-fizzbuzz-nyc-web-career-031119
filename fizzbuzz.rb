@@ -8,7 +8,7 @@ def fizzbuzz(var)
   elsif ((var % 3) == 0) 
     return ("Fizz")
   elsif ((var % 5) == 0)
-    str2 = "Buzz"
+    return ("Buzz)
   end
  if (str1+str2 == "")
    return(NIL)
