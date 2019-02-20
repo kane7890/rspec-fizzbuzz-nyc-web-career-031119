@@ -5,10 +5,9 @@ def fizzbuzz(var)
   if ((var % 15) == 0)
     return ("FizzBuzz")
   end
-  elseif ((var % 3) == 0) 
-    str1 = "Fizz"
-  end
-  if ((var % 5) == 0)
+  elsif ((var % 3) == 0) 
+    return ("Fizz")
+  elsif ((var % 5) == 0)
     str2 = "Buzz"
   end
  if (str1+str2 == "")
